@@ -4,7 +4,10 @@ This module implements reports, like Invoice, Quotation/SO and PurchaseOrder for
 ## How to implement it?
 
 1. Take the code from this module, and refactor it to suit new name `german_reports`.
-https://git.euroblaze.de/odoo-modules/bi_professional_reports_templates
+
+   https://git.euroblaze.de/odoo-modules/bi_professional_reports_templates
+
+   Styling is best represented in the twobe project https://github.com/euroblaze/twobe/issues/1
 
 2. Remove the different types of reports, like _Modern_, _Basic_ etc., and focus just on the _Modern_. Other reports can be deprecated.
 
